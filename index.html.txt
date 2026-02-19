@@ -1,0 +1,524 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sonik Lanka Global Tours | Explore Sri Lanka with Comfort &amp; Trust</title>
+    <meta name="description" content="Sonik Lanka Global Tours - Your trusted travel partner for exploring Sri Lanka. We offer tour packages, airport transfers, hotel reservations, and custom travel plans."/>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=""/>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&amp;family=Poppins:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css"/>
+<script src="https://www.kimi.com/sdk-seed.js" defer=""></script></head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-globe-asia"></i>
+                <span>Sonik Lanka</span>
+            </a>
+            
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About Us</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#packages" class="nav-link">Tour Packages</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Sonik Lanka Global Tours</h1>
+            <p class="hero-tagline">Explore Sri Lanka with Comfort &amp; Trust</p>
+            <p class="hero-subtitle">Discover the pearl of the Indian Ocean with our expertly curated travel experiences</p>
+            <a href="#contact" class="btn btn-primary">
+                <i class="fas fa-calendar-check"></i>
+                Book Your Tour
+            </a>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Who We Are</span>
+                <h2 class="section-title">About Us</h2>
+                <div class="section-divider">
+                    <span></span>
+                    <i class="fas fa-compass"></i>
+                    <span></span>
+                </div>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/about-srilanka.jpg" alt="Beautiful Sri Lanka Landscape"/>
+                    <div class="experience-badge">
+                        <span class="years">10+</span>
+                        <span class="text">Years of<br/>Experience</span>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3>Your Trusted Travel Partner in Sri Lanka</h3>
+                    <p>Welcome to Sonik Lanka Global Tours, your premier travel companion for exploring the breathtaking beauty of Sri Lanka. With over a decade of experience in the tourism industry, we have established ourselves as a trusted name in providing exceptional travel experiences.</p>
+                    <p>We specialize in creating unforgettable journeys that showcase the best of Sri Lanka - from pristine beaches and ancient cultural sites to misty hill country and vibrant wildlife. Our dedicated team ensures every aspect of your trip is handled with utmost care and professionalism.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Trusted Travel Partner</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Airport Pickup &amp; Drop-off</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Hotel Booking Services</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Expert Guided Tours</span>
+                        </div>
+                    </div>
+                    
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">What We Offer</span>
+                <h2 class="section-title">Our Services</h2>
+                <div class="section-divider">
+                    <span></span>
+                    <i class="fas fa-concierge-bell"></i>
+                    <span></span>
+                </div>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service Card 1 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-suitcase-rolling"></i>
+                    </div>
+                    <h3>Tour Packages</h3>
+                    <p>Carefully curated tour packages designed to give you the best of Sri Lanka. From beach getaways to cultural expeditions, we have something for every traveler.</p>
+                    <a href="#packages" class="service-link">Explore Packages <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Service Card 2 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-plane-arrival"></i>
+                    </div>
+                    <h3>Airport Transfers</h3>
+                    <p>Seamless airport pickup and drop-off services with comfortable, air-conditioned vehicles. Start and end your journey with convenience and peace of mind.</p>
+                    <a href="#contact" class="service-link">Book Transfer <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Service Card 3 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <h3>Hotel Reservations</h3>
+                    <p>Access to a wide network of hotels, resorts, and boutique accommodations across Sri Lanka. We help you find the perfect stay that fits your budget and preferences.</p>
+                    <a href="#contact" class="service-link">Reserve Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <!-- Service Card 4 -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>Custom Travel Plans</h3>
+                    <p>Tailor-made itineraries crafted to match your unique interests, schedule, and budget. Create your dream Sri Lankan adventure with our expert guidance.</p>
+                    <a href="#contact" class="service-link">Plan Your Trip <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tour Packages Section -->
+    <section class="packages" id="packages">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Popular Destinations</span>
+                <h2 class="section-title">Tour Packages</h2>
+                <div class="section-divider">
+                    <span></span>
+                    <i class="fas fa-map-signs"></i>
+                    <span></span>
+                </div>
+            </div>
+            
+            <div class="packages-grid">
+                <!-- Package 1: Beach Tour -->
+                <div class="package-card">
+                    <div class="package-image">
+                        <img src="images/beach-tour.jpg" alt="Beach Tour Sri Lanka"/>
+                        <div class="package-duration">
+                            <i class="fas fa-clock"></i>
+                            <span>3 Days</span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Beach Tour</h3>
+                        <p>Experience the pristine beaches of Sri Lanka&#39;s southern coast. Visit Mirissa, Unawatuna, and Hikkaduwa for sun, sand, and surf.</p>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Beach hopping</li>
+                            <li><i class="fas fa-check"></i> Whale watching</li>
+                            <li><i class="fas fa-check"></i> Water sports</li>
+                            <li><i class="fas fa-check"></i> Beachside dining</li>
+                        </ul>
+                        <div class="package-footer">
+                            <span class="package-price">From $299</span>
+                            <button class="btn btn-outline" onclick="showPackageDetails(&#39;beach&#39;)">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Package 2: Cultural Tour -->
+                <div class="package-card featured">
+                    <div class="package-badge">Most Popular</div>
+                    <div class="package-image">
+                        <img src="images/cultural-tour.jpg" alt="Cultural Tour Sri Lanka"/>
+                        <div class="package-duration">
+                            <i class="fas fa-clock"></i>
+                            <span>5 Days</span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Cultural Tour</h3>
+                        <p>Journey through Sri Lanka&#39;s rich heritage. Explore ancient cities, sacred temples, and UNESCO World Heritage sites.</p>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Sigiriya Rock Fortress</li>
+                            <li><i class="fas fa-check"></i> Temple of the Tooth</li>
+                            <li><i class="fas fa-check"></i> Ancient Polonnaruwa</li>
+                            <li><i class="fas fa-check"></i> Dambulla Cave Temple</li>
+                        </ul>
+                        <div class="package-footer">
+                            <span class="package-price">From $499</span>
+                            <button class="btn btn-primary" onclick="showPackageDetails(&#39;cultural&#39;)">View Details</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Package 3: Hill Country Tour -->
+                <div class="package-card">
+                    <div class="package-image">
+                        <img src="images/hill-country-tour.jpg" alt="Hill Country Tour Sri Lanka"/>
+                        <div class="package-duration">
+                            <i class="fas fa-clock"></i>
+                            <span>4 Days</span>
+                        </div>
+                    </div>
+                    <div class="package-content">
+                        <h3>Hill Country Tour</h3>
+                        <p>Discover the misty mountains and tea plantations of Sri Lanka&#39;s hill country. Visit Nuwara Eliya, Ella, and Kandy.</p>
+                        <ul class="package-features">
+                            <li><i class="fas fa-check"></i> Tea plantation visits</li>
+                            <li><i class="fas fa-check"></i> Scenic train ride</li>
+                            <li><i class="fas fa-check"></i> Horton Plains</li>
+                            <li><i class="fas fa-check"></i> Waterfall trekking</li>
+                        </ul>
+                        <div class="package-footer">
+                            <span class="package-price">From $399</span>
+                            <button class="btn btn-outline" onclick="showPackageDetails(&#39;hill&#39;)">View Details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Visual Journey</span>
+                <h2 class="section-title">Gallery</h2>
+                <div class="section-divider">
+                    <span></span>
+                    <i class="fas fa-camera"></i>
+                    <span></span>
+                </div>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item large">
+                    <img src="images/gallery-1.jpg" alt="Sigiriya Rock"/>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Sigiriya Rock Fortress</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-2.jpg" alt="Tea Plantations"/>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Tea Plantations</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-3.jpg" alt="Beach Sunset"/>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Beach Sunset</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-4.jpg" alt="Temple of the Tooth"/>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Temple of the Tooth</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-5.jpg" alt="Elephants"/>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Wildlife Safari</span>
+                    </div>
+                </div>
+                <div class="gallery-item large">
+                    <img src="images/gallery-6.jpg" alt="Nine Arch Bridge"/>
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <span>Nine Arch Bridge</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle">Get in Touch</span>
+                <h2 class="section-title">Contact Us</h2>
+                <div class="section-divider">
+                    <span></span>
+                    <i class="fas fa-envelope"></i>
+                    <span></span>
+                </div>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let&#39;s Plan Your Dream Vacation</h3>
+                    <p>Ready to explore Sri Lanka? Contact us today and let our travel experts craft the perfect itinerary for you.</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="label">Phone</span>
+                                <span class="value">+94 77 123 4567</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="label">Email</span>
+                                <span class="value"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="f69f989099b68599989f9d9a97989d978299838485d895999b">[email&#160;protected]</a></span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="label">Address</span>
+                                <span class="value">123 Galle Road, Colombo, Sri Lanka</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="contact-text">
+                                <span class="label">WhatsApp</span>
+                                <span class="value">+94 77 123 4567</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="https://wa.me/94771234567" target="_blank" class="btn btn-whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                        Chat on WhatsApp
+                    </a>
+                </div>
+                
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Send Us a Message</h3>
+                        
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your full name" required=""/>
+                            <span class="error-message" id="nameError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" placeholder="Enter your email address" required=""/>
+                            <span class="error-message" id="emailError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number"/>
+                            <span class="error-message" id="phoneError"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your travel plans..." required=""></textarea>
+                            <span class="error-message" id="messageError"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="footer-logo">
+                        <i class="fas fa-globe-asia"></i>
+                        <span>Sonik Lanka Global Tours</span>
+                    </a>
+                    <p>Your trusted partner for exploring the pearl of the Indian Ocean. Creating unforgettable travel experiences since 2014.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://wa.me/94771234567" class="social-link" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#packages">Tour Packages</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Our Services</h4>
+                    <ul>
+                        <li><a href="#services">Tour Packages</a></li>
+                        <li><a href="#services">Airport Transfers</a></li>
+                        <li><a href="#services">Hotel Reservations</a></li>
+                        <li><a href="#services">Custom Travel Plans</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-phone-alt"></i>
+                            <span>+94 77 123 4567</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="d5bcbbb3ba95a6babbbcbeb9b4bbbeb4a1baa0a7a6fbb6bab8">[email&#160;protected]</a></span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>123 Galle Road, Colombo, Sri Lanka</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2024 Sonik Lanka Global Tours. All Rights Reserved.</p>
+                <p>Designed with <i class="fas fa-heart"></i> for Sri Lanka Tourism</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Package Details Modal -->
+    <div class="modal" id="packageModal">
+        <div class="modal-content">
+            <span class="modal-close" onclick="closeModal()">×</span>
+            <div class="modal-body" id="modalBody">
+                <!-- Content will be loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop" onclick="scrollToTop()">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
+
+
+</body></html>
